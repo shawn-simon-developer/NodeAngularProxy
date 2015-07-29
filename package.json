@@ -1,0 +1,30 @@
+{
+  "name": "NodeAngularProxy",
+  "version": "0.0.1",
+  "description": "A project used for teaching how to use a node proxy with angular.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "http-proxy": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawn-simon-developer/NodeAngularProxy.git"
+  },
+  "keywords": [
+    "Node",
+    "Angular",
+    "Proxy"
+  ],
+  "author": "Shawn Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawn-simon-developer/NodeAngularProxy/issues"
+  },
+  "homepage": "https://github.com/shawn-simon-developer/NodeAngularProxy"
+}
