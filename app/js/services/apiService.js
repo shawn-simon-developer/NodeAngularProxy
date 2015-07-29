@@ -1,10 +1,10 @@
 function ApiService($http) {
 	this.$http = $http;
-	this.url = "https://en.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&exintro&titles=AngularJS";
+	this.url = "/space/";
 };
 
 angular.module('app').service('apiService', ApiService);
 
-ApiService.prototype.getWikiData = function() {
+ApiService.prototype.getAstronauts = function() {
 	return this.$http.get(this.url)
 };
